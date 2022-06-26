@@ -4,8 +4,8 @@ try:
     dominio = sys.argv[1]
     nome_arquivo = sys.argv[2]
 except:
-    print 'Argumentos inválidos'
-    print 'Uso: DNSbrute.py <dominio> <wordlist.txt>'
+    print 'Invalid args'
+    print 'Usage: DNSbrute.py <domain> <wordlist>'
     sys.exit(1)
 try:
     arquivo = open('nome_arquivo')
