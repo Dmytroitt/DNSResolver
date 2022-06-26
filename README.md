@@ -7,6 +7,7 @@
 
 ```bash
 # Clone rep
+
 git clone https://github.com/shokolalad/DNSResolver
 
 # Give execute permissions
