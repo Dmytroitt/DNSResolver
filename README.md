@@ -11,7 +11,7 @@ git clone https://github.com/shokolalad/DNSResolver
 
 # Give execute permissions
 
-chmod +x DNSbrute.py
+chmod +x DNSResolver.py
 
 # Execute
 
