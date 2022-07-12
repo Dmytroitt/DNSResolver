@@ -13,9 +13,9 @@ try:
 for subdominio in subdominios:
     try:
         domesub=subdominio+'.'+dominio
-        resultados = dns.resolver.query("example.com","a")
+        resultados = dns.resolver.query(dominio,"a")
         for resultado in resultados:
             print domesub resultado
     except:
-        print  + ' não encontrado.'
+        print  + ' Not found.'
         pass
